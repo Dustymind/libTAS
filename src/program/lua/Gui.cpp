@@ -25,8 +25,8 @@
 #include <iostream>
 #include <string>
 extern "C" {
-#include <lua.h>
-#include <lauxlib.h>
+#include <lua5.4/lua.h>
+#include <lua5.4/lauxlib.h>
 }
 
 /* List of functions to register */

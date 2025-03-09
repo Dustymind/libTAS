@@ -21,7 +21,7 @@
 #define LIBTAS_LUAINPUT_H_INCLUDED
 
 extern "C" {
-#include <lua.h>
+#include <lua5.4/lua.h>
 }
 
 class AllInputs;

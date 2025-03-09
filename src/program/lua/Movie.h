@@ -21,7 +21,7 @@
 #define LIBTAS_LUAMOVIE_H_INCLUDED
 
 extern "C" {
-#include <lua.h>
+#include <lua5.4/lua.h>
 }
 
 struct Context;

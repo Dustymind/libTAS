@@ -21,7 +21,7 @@
 #include "Main.h"
 
 extern "C" {
-#include <lauxlib.h>
+#include <lua5.4/lauxlib.h>
 }
 #include <iostream>
 

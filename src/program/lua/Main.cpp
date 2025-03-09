@@ -29,9 +29,9 @@
 
 #include <iostream>
 extern "C" {
-#include <lua.h>
+#include <lua5.4/lua.h>
 #include <lualib.h>
-#include <lauxlib.h>
+#include <lua5.4/lauxlib.h>
 }
 
 /* Lua state */

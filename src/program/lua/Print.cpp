@@ -21,8 +21,8 @@
 
 #include <sstream>
 extern "C" {
-#include <lua.h>
-#include <lauxlib.h>
+#include <lua5.4/lua.h>
+#include <lua5.4/lauxlib.h>
 }
 
 void Lua::Print::init(lua_State *L) {

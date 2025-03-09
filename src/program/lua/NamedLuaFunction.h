@@ -23,7 +23,7 @@
 #include <string>
 
 extern "C" {
-#include <lua.h>
+#include <lua5.4/lua.h>
 }
 
 namespace Lua {
